@@ -37,3 +37,9 @@ media/
 # Environment
 .env
 .env.*
+
+# md files
+AGENTS.md
+
+# others
+design-system/
