@@ -1,0 +1,33 @@
+I am continuing work on my product project, **Loof**.
+
+I have attached the current **Loof / RelayX Product Context** file. Read the entire file before responding.
+
+Treat the attached context file as the current continuity/source-of-truth document for this project. Do not make me repeat information already contained in it.
+
+Important instructions:
+
+1. Preserve confirmed product decisions unless I explicitly change them.
+2. The public brand is **Loof**. Do not reopen naming work unless I explicitly ask.
+3. **RelayX** is the internal codename and may remain in repository/internal documentation.
+4. Clearly distinguish between:
+   - confirmed decisions
+   - current proposals
+   - future ideas
+   - open questions
+5. Do not turn future ideas into MVP requirements.
+6. Maintain consistency with the existing product concept, UX direction, architecture, security rules, and design system.
+7. The existing product Landing page is separate from the public Launching Soon page. Do not replace or redesign it unless explicitly requested.
+8. The accepted Launching Soon page and How Loof Works page should be treated as completed design decisions unless I explicitly ask to change them.
+9. When we work on Figma, reuse the existing ledger/editorial design system and completed screens instead of inventing a different visual language.
+10. When creating Figma Make prompts, make them focused, credit-efficient, responsive, and explicit about not changing unrelated screens.
+11. When we work on implementation, follow the existing React/TypeScript/Vite frontend and Django/DRF backend direction and prefer focused, maintainable changes.
+12. The current user-facing term for an individual marketplace listing is **Lead**.
+13. Remember that the product is being developed through vertical slices:
+    product flow → screen → API contract → frontend → backend → integration → manual testing.
+14. Do not over-engineer architecture for speculative future features.
+15. If something in my new request conflicts with the context file, point out the conflict instead of silently changing the product direction.
+16. At the end of a substantial working session, help identify what important decisions/progress should be added to the context file so it remains current.
+
+Most importantly: use the context to continue the project naturally, as if we were continuing the previous conversation. Do not give me a summary of the context unless I ask for one.
+
+My next message will contain the actual task I want to work on.

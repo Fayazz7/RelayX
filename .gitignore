@@ -37,6 +37,7 @@ media/
 # Environment
 .env
 .env.*
+!.env.example
 
 # md files
 AGENTS.md
