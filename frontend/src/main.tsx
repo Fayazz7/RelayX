@@ -4,6 +4,7 @@ import AppErrorBoundary from './app/AppErrorBoundary'
 import { QueryProvider } from './app/QueryProvider'
 import './index.css'
 import AppRoutes from './routes/AppRoutes'
+import './styles/loof.css'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
