@@ -1,5 +1,10 @@
 # Loof / RelayX
 
+The current verified project/deployment handoff is maintained in
+`LOOF_PROJECT_CONTEXT.md`. Read it alongside this instruction file before
+continuing development; it is the source of truth for completed work and
+current repository state.
+
 ## Project Overview
 
 Loof is the public brand of the project. RelayX remains the internal codename
@@ -356,7 +361,9 @@ Purpose:
 - Explain how sellers earn.
 - Explain good Lead quality.
 - Explain trust/reputation.
-- Lead users to the existing Explore and Sell What You Know screens.
+- Explain the future marketplace flow without assuming that Explore, Sell What
+  You Know, or marketplace transaction screens are implemented in the current
+  public frontend.
 
 The page is a general marketplace overview, not a replacement for the seller-focused
 "Sell What You Know" page.

@@ -1,5 +1,9 @@
 # Loof / RelayX — Product Context & Continuity
 
+> Current verified repository and deployment state is maintained in
+> [LOOF_PROJECT_CONTEXT.md](LOOF_PROJECT_CONTEXT.md). Read that handoff first;
+> this longer document preserves product decisions and future-flow context.
+
 ## Purpose
 Portable continuity file for continuing the RelayX product across fresh ChatGPT conversations. Attach this file to a new chat and use the one-time continuation prompt supplied separately.
 
@@ -175,8 +179,9 @@ It must not replace the existing product Landing page.
 
 Launching Soon → **Discover How Loof Works** → How Loof Works
 
-How Loof Works → **Explore Loof** → existing Explore page
-How Loof Works → **Sell What You Know** → existing Sell What You Know page
+The current implemented public How Loof Works page returns to the public home
+page. Explore and Sell What You Know remain product-flow concepts and must not
+be treated as implemented public routes unless verified in the repository.
 
 ## 8. Authentication — Design Completed
 
@@ -698,9 +703,9 @@ Purpose:
   Lead quality, and trust/reputation.
 - It is intentionally different from the seller-focused Sell What You Know page.
 
-Primary final CTAs:
-- **Explore Loof →** → existing Explore
-- **Sell What You Know →** → existing Sell What You Know
+The current public implementation has a final **Back to home →** CTA. Explore
+and Sell What You Know remain planned product-flow concepts unless verified in
+the repository.
 
 ### Later polish
 - Mobile “How it works” vertical stacking
@@ -828,8 +833,7 @@ Current page relationship:
 Launching Soon
     ↓
 How Loof Works
-    ├── Explore Loof → existing Explore
-    └── Sell What You Know → existing Sell What You Know
+    └── Back to home
 
 For the next Figma screen:
 - Use the existing ledger/editorial system.
