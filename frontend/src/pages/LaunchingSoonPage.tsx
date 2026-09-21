@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { BackToTopButton, LoofFooter, PrimaryLink } from '../components/loof/LoofChrome'
+import { Seo } from '../components/seo/Seo'
 
 const categories = [
   ['LOCAL KNOWLEDGE', 'Information that becomes valuable because someone knows the place, situation, or people involved.', ['A reliable local service provider', "A useful place that's difficult to discover", 'Local accommodation information', 'Knowing who to contact for a specific need']],
@@ -12,6 +13,12 @@ function LaunchingSoonPage() {
   const [openCategory, setOpenCategory] = useState<string>(categories[0][0])
 
   return <main className="loof-page loof-launching">
+    <Seo
+      description="Loof is a marketplace for useful local knowledge, connections, recommendations, and opportunities. Discover what people know or sell what you know."
+      ogDescription="A marketplace for useful local knowledge, connections, recommendations, and opportunities."
+      title="Loof — Discover and Sell Useful Local Knowledge"
+      url="https://loofmarket.com/"
+    />
     <header className="loof-launch-header"><span>Loof</span></header>
     <div className="loof-launch-content">
       <section className="loof-launch-hero"><span className="loof-eyebrow">COMING SOON</span><h1>Useful things are everywhere.<span>So are the people who need them.</span></h1><p>A marketplace for useful local knowledge, trusted connections, recommendations, and hard-to-find information.</p><PrimaryLink to="/how-loof-works">Discover How Loof Works →</PrimaryLink></section>
